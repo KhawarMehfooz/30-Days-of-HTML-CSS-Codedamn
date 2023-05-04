@@ -2,15 +2,26 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 html {
   font-family: "Cabin", sans-serif;
 }
-.post-container {
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.main {
+  max-width: 640px;
   border: 1px solid grey;
   border-radius: 1px;
+  box-sizing: border-box;
+}
+.post-container {
   max-height: fit-content;
-  max-width: 640px;
 }
 #header {
   display: flex;
@@ -18,15 +29,21 @@ html {
   padding: 10px;
 }
 #img-post {
-  width: 640px;
+  display: block;
   max-height: 512px;
-  max-width: 640px;
+  width: 100%;
 }
 #toolbar {
   display: flex;
   justify-content: space-between;
-  padding: 8px;
+  align-items: center;
+  padding: 10px;
+}
+#left{
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 #description {
-  margin: 10px;
+  margin: 0 10px 10px 10px;
 }
