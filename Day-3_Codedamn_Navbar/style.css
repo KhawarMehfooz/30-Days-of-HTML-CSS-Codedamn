@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+:root {
+  --text-color: #a1a1aa;
+  --bg-color: #18181b;
+  --btn-color: #5046e5;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h2 {
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 1.25rem;
+}
+
+nav {
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+#company {
+  display: flex;
+  align-items: center;
+}
+#logo {
+  height: 1.7rem;
+  width: 1.7rem;
+}
+#menu-items {
+  display: flex;
+  gap: 32px;
+}
+li {
+  color: var(--text-color);
+  list-style-type: none;
+}
+.drop-down {
+  color: var(--text-color);
+}
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 14px;
+}
+#buttons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+#get-started-btn {
+  background-color: var(--btn-color);
+  padding: 6px 10px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+}
