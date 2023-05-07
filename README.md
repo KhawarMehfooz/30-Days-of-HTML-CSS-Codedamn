@@ -6,11 +6,12 @@ Each day of the challenge consists of a new project with instructions and requir
 
 ## Progress
 
-| Day | Project Name    | Output                                                |
-| --- | --------------- | ----------------------------------------------------- |
-| 1   | Instagram Post  | ![Output](./Day-1_Instagram_Post/assets/output.jpeg)  |
-| 2   | Playground Card | ![Output](./Day-2_Playground_Card/assets/output.jpeg) |
-| 3   | Codedamn Navbar | ![Output](./Day-3_Codedamn_Navbar/assets/output.jpeg) |
-| 4   | Login Page      | ![Output](./Day-4_Login_Page/assets/output.jpeg)      |
+| Day | Project Name            | Output                                                        |
+| --- | ----------------------- | ------------------------------------------------------------- |
+| 1   | Instagram Post          | ![Output](./Day-1_Instagram_Post/assets/output.jpeg)          |
+| 2   | Playground Card         | ![Output](./Day-2_Playground_Card/assets/output.jpeg)         |
+| 3   | Codedamn Navbar         | ![Output](./Day-3_Codedamn_Navbar/assets/output.jpeg)         |
+| 4   | Login Page              | ![Output](./Day-4_Login_Page/assets/output.jpeg)              |
+| 5   | Responsive Pricing Card | ![Output](./Day-5_Responsive_Pricing_Card/assets/output.jpeg) |
 
 Feel free to browse through my code and provide feedback or suggestions for improvement. Thank you for checking out my work!
