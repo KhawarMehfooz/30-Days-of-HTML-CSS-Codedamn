@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --title-color: #111827;
+  --blog-title: #4f46e5;
+  --description-color: #6b7280;
+}
+main {
+  margin-top: 100px;
+}
+.header {
+  text-align: center;
+}
+.title {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--title-color);
+}
+.description {
+  width: 580px;
+  font-size: 18px;
+  margin-inline: auto;
+  margin-top: 20px;
+  color: var(--description-color);
+}
+.blog-section {
+  margin: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card-img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.blog-detail {
+  padding: 20px;
+}
+.blog-heading {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--blog-title);
+}
+.blog-title {
+  font-size: 1.3rem;
+  line-height: 1.2;
+  font-weight: 600;
+  margin: 20px 0;
+  color: var(--title-color);
+}
+.blog-description {
+  color: var(--description-color);
+}
+.author-detail {
+  padding: 0 20px;
+  position: relative;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: baseline;
+}
+#author-detail-1{
+    margin-top: 43px;
+}
+#author-detail-2{
+    margin-bottom: 20px;
+}
+#author-detail-3{
+    margin-top: 20px;
+}
+.author-name {
+  font-weight: 600;
+  font-size: 18px;
+}
+.blog-time {
+  display: flex;
+  align-items: center;
+  color: var(--description-color);
+  gap: 5px;
+  margin-top: 5px;
+}
+.author-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+/* @media only screen and (max-width: 1024px) {
+  .card {
+    width: 100%;
+  }
+} */
+@media only screen and (max-width: 766px) {
+  .blog-section {
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+  }
+}
