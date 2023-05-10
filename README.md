@@ -15,5 +15,6 @@ Each day of the challenge consists of a new project with instructions and requir
 | 5   | Responsive Pricing Card | ![Output](./Day-5_Responsive_Pricing_Card/assets/output.jpeg) |
 | 6   | Stats Card              | ![Output](./Day-6_Stats_Card/assets/output.png)               |
 | 7   | Profile Header          | ![Output](./Day-7_Profile_Header/assets/output.png)           |
+| 8   | Blog Section            | ![Output](./Day-8_Blog_Section/assets/output.png)             |
 
 Feel free to browse through my code and provide feedback or suggestions for improvement. Thank you for checking out my work!
