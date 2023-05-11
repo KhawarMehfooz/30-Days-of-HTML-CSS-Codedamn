@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+:root {
+  --tool-tip-background: lightgray;
+  --tool-tip-border: darkgray;
+  --text-color: black;
+}
+body {
+  font-family: "Inter", sans-serif;
+  display: grid;
+  place-items: center;
+  height: 90vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main h2 {
+  margin-bottom: 20px;
+}
+#button {
+  display: block;
+  padding: 5px 15px;
+  font-size: 18px;
+  outline: transparent;
+  color: black;
+  border-radius: 3px;
+  border: 1px solid black;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.tool-tip-text {
+  display: block;
+  position: absolute;
+  margin-left: 60px;
+  border: 1px solid var(--tool-tip-border);
+  background-color: var(--tool-tip-background);
+  color: var(--text-color);
+  padding: 5px 20px;
+  border-radius: 5px;
+  visibility: hidden;
+  z-index: 2;
+}
+.tool-tip-text::before {
+  content: "";
+  background-color: var(--tool-tip-background);
+  padding: 5px;
+  position: absolute;
+  transform: rotate(45deg);
+  z-index: 1;
+  top: -6.5px;
+  left: 7px;
+  border-left: 1px solid var(--tool-tip-border);
+  border-top: 1px solid var(--tool-tip-border);
+}
+#button:hover + .tool-tip-text {
+  cursor: pointer;
+  visibility: visible;
+}
