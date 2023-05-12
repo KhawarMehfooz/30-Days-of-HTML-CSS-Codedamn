@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+:root {
+  --bg-color: #f4f4f5;
+  --text-color: #52525b;
+  --title-color: #18181b;
+  --pro-badge-bg-color: #fee2e1;
+  --pro-dot-text-color: #1f1f1f;
+  --hover-bg-color: #e8e8e9;
+  --red-text: #991b1b;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+aside {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: var(--bg-color);
+  height: 100vh;
+}
+.header {
+  padding: 15px 15px 0px 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 25px;
+}
+.pro-chip {
+  display: flex;
+  align-items: center;
+  background-color: var(--pro-badge-bg-color);
+  color: var(--red-text);
+  padding: 3px 9px;
+  border-radius: 50px;
+  gap: 5px;
+  font-weight: 600;
+}
+li {
+  list-style-type: none;
+}
+.active {
+  background-color: var(--hover-bg-color);
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 600;
+}
+.list-items {
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.list-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 8px;
+}
+.list-item:hover {
+  background-color: var(--hover-bg-color);
+  cursor: pointer;
+  border-radius: 6px;
+}
+.list-icon {
+  height: 16px;
+  /* width: 20px; */
+}
+.list-title {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 12px;
+}
+.feedback-list {
+  padding: 10px 15px;
+}
+.bottom-list {
+  position: absolute;
+  bottom: 0;
+  margin-top: auto;
+  padding: 0 0 15px 15px;
+}
