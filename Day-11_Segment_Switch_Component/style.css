@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+:root {
+  --border-color: #ccc;
+  --bg-color: #f5f5f5;
+  --btn-active-color: lightblue;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  display: grid;
+  height: 90vh;
+  place-items: center;
+}
+form {
+  display: flex;
+}
+input {
+  display: none;
+  cursor: pointer;
+}
+.form-group > input:checked ~ label {
+  background-color: var(--btn-active-color);
+}
+
+label {
+  cursor: pointer;
+  display: block;
+  padding: 6px 8px;
+}
+.form-group {
+  border: 1px solid var(--border-color);
+  /* padding: 5px; */
+  background-color: var(--bg-color);
+}
