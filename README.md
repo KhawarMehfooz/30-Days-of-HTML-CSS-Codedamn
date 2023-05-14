@@ -19,5 +19,7 @@ Each day of the challenge consists of a new project with instructions and requir
 | 9   | Tooltip Widget          | ![Output](./Day-9_ToolTip_Challenge/assets/output.gif)        |
 | 10   | Sidebar          | ![Output](./Day-10_Sidebar/assets/output.gif)        |
 | 11   | Segment Switch Widget          | ![Output](./Day-11_Segment_Switch_Component/assets/output.gif)        |
+| 12   | Day 12 was samw as Day 11          | ![Output](./Day-11_Segment_Switch_Component/assets/output.gif)        |
+| 13   | Overlay Element          | ![Output](./Day-13_Overlay_Element/assets/output.gif)        |
 
 Feel free to browse through my code and provide feedback or suggestions for improvement. Thank you for checking out my work!
