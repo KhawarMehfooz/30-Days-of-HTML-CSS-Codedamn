@@ -1,0 +1,31 @@
+:root {
+  --bg-color: cyan;
+}
+.container {
+  width: 250px;
+  aspect-ratio: 3/4;
+  margin-inline: auto;
+  background-image: linear-gradient(to bottom, #00feff, #00feff);
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.container p {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  color: white;
+  opacity: 0;
+}
+.container:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  transition: 0.2s ease-in-out;
+  z-index: 1;
+}
+.container:hover p {
+  transition: 0.2s ease-in-out;
+  opacity: 1;
+}
