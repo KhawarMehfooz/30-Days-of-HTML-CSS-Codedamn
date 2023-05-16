@@ -6,21 +6,22 @@ Each day of the challenge consists of a new project with instructions and requir
 
 ## Progress
 
-| Day | Project Name            | Output                                                        |
-| --- | ----------------------- | ------------------------------------------------------------- |
-| 1   | Instagram Post          | ![Output](./Day-1_Instagram_Post/assets/output.jpeg)          |
-| 2   | Playground Card         | ![Output](./Day-2_Playground_Card/assets/output.jpeg)         |
-| 3   | Codedamn Navbar         | ![Output](./Day-3_Codedamn_Navbar/assets/output.jpeg)         |
-| 4   | Login Page              | ![Output](./Day-4_Login_Page/assets/output.jpeg)              |
-| 5   | Responsive Pricing Card | ![Output](./Day-5_Responsive_Pricing_Card/assets/output.jpeg) |
-| 6   | Stats Card              | ![Output](./Day-6_Stats_Card/assets/output.png)               |
-| 7   | Profile Header          | ![Output](./Day-7_Profile_Header/assets/output.png)           |
-| 8   | Blog Section            | ![Output](./Day-8_Blog_Section/assets/output.png)             |
-| 9   | Tooltip Widget          | ![Output](./Day-9_ToolTip_Challenge/assets/output.gif)        |
-| 10   | Sidebar          | ![Output](./Day-10_Sidebar/assets/output.gif)        |
-| 11   | Segment Switch Widget          | ![Output](./Day-11_Segment_Switch_Component/assets/output.gif)        |
-| 12   | Day 12 was same as Day 11          | ![Output](./Day-11_Segment_Switch_Component/assets/output.gif)        |
-| 13   | Overlay Element          | ![Output](./Day-13_Overlay_Element/assets/output.gif)        |
-| 14   | Flip Card Animation          | ![Output](./Day-14_Flip_Card_Animation/assets/output.gif)        |
+| Day | Project Name              | Output                                                         |
+| --- | ------------------------- | -------------------------------------------------------------- |
+| 1   | Instagram Post            | ![Output](./Day-1_Instagram_Post/assets/output.jpeg)           |
+| 2   | Playground Card           | ![Output](./Day-2_Playground_Card/assets/output.jpeg)          |
+| 3   | Codedamn Navbar           | ![Output](./Day-3_Codedamn_Navbar/assets/output.jpeg)          |
+| 4   | Login Page                | ![Output](./Day-4_Login_Page/assets/output.jpeg)               |
+| 5   | Responsive Pricing Card   | ![Output](./Day-5_Responsive_Pricing_Card/assets/output.jpeg)  |
+| 6   | Stats Card                | ![Output](./Day-6_Stats_Card/assets/output.png)                |
+| 7   | Profile Header            | ![Output](./Day-7_Profile_Header/assets/output.png)            |
+| 8   | Blog Section              | ![Output](./Day-8_Blog_Section/assets/output.png)              |
+| 9   | Tooltip Widget            | ![Output](./Day-9_ToolTip_Challenge/assets/output.gif)         |
+| 10  | Sidebar                   | ![Output](./Day-10_Sidebar/assets/output.gif)                  |
+| 11  | Segment Switch Widget     | ![Output](./Day-11_Segment_Switch_Component/assets/output.gif) |
+| 12  | Day 12 was same as Day 11 | ![Output](./Day-11_Segment_Switch_Component/assets/output.gif) |
+| 13  | Overlay Element           | ![Output](./Day-13_Overlay_Element/assets/output.gif)          |
+| 14  | Flip Card Animation       | ![Output](./Day-14_Flip_Card_Animation/assets/output.gif)      |
+| 15  | Animated Progess Bar      | ![Output](./Day-15_Animated_Progress_Bar/assets/output.gif)    |
 
 Feel free to browse through my code and provide feedback or suggestions for improvement. Thank you for checking out my work!
